@@ -1,0 +1,19 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(20, 30px);
+    gap: 2px;
+    padding: 20px;
+    background-color: black;
+    width: fit-content;
+    margin: auto;
+}
+
+.grid-cell {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    transition: background-color 0.3s;
+}
